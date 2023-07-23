@@ -1,0 +1,135 @@
+html,body, .container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 150px;
+}
+.row_1{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    text-align: center;
+}
+.row_2{
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*  */
+
+.main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.div2 {
+    width: 60%;
+    height: 100%;
+    border: 2px solid grey;
+    background-image: url(imgs/original.gif);
+    display: flex;
+    justify-content: center;
+}
+.div1 {
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    border: 2px solid grey;
+    background-color: #e8a766;
+}
+.text{
+    width: 200px;
+    height: 100px;
+    margin-top: 445px;
+    margin-left: 190px;
+}
+#text{
+    font-size: 16px;
+}
+
+.genre{
+    width: 160px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 150px ;
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+.genre p{
+    font-size: 24px;
+}
+.buts{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.buts button{
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: #eb9560;
+}
+
+.handle{
+    width: 200px;
+    height: 5px;
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 30px;
+}
+.fill{
+    width: 7px;
+    height: 7px;
+    border-radius: 40px;
+    background-color: #eb9560;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+}
+p {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px 20px;
+}
+
+/*  */
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.col_1{
+    width: 50%;
+    height: 50px;
+}
+.col_2{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+.col1{
+    display: flex;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    
+}
+
